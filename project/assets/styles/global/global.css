@@ -1,0 +1,67 @@
+.hero{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    background-color: #E8F7EC;
+    /* background-color: aqua; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 21px 45px 0 251px;
+    z-index: 1000;
+
+}
+.logo_title{
+    color: var(--primary-color);
+    padding-right: 234px;
+    font-family: var(--rubik);
+    font-weight: var(--rubik-700);
+    font-size: 28px;
+    letter-spacing: -0.16px;
+    line-height: 100%;
+}
+.nav-list{
+    display: flex;
+    color: var(--primary-color);
+    /* background-color: rgb(255, 0, 34); */
+    gap: 20px;
+    font-size: 15px;
+    font-family: var(--roboto);
+    font-weight: var(--roboto-700);
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: center;
+}
+.nav-link{
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: var(--navbar_link-color);
+}
+.navbar{
+    /* background-color: bisque; */
+    display: flex;
+    padding-right: 404px;
+
+}
+.btn_container{
+    display: flex;
+    gap: 30px;
+    /* background-color: rgb(255, 0, 255); */
+    
+    
+}
+.btn_login{
+    /* background-color: blueviolet; */
+    font-family: var(--roboto);
+    font-weight: var(--roboto-700);
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    text-align: right;
+    transition: 0.3s;
+
+}
+.btn_login:hover{
+    color: var(--navbar_link-color);
+}
