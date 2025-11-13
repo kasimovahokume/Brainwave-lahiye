@@ -76,14 +76,11 @@
 }
 
 .form-control {
-  width: 298px;
-  height: 44px;
+  width: 299px;
+  height: 50px;
   background-color: #ffffff;
   border: 1px solid #c4c4c4;
-  border-radius: 5px;
-  padding-left: 12px;
   border-radius: 8px;
-  padding-bottom: 50px;
 }
 .form-control::placeholder {
   font-family: "Roboto", sans-serif;
@@ -94,13 +91,11 @@
   line-height: 26px;
 }
 .login-button {
-  width: 298px;
-  height: 44px;
   background-color: #161c2d;
   border: none;
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: -0.1px;
@@ -121,16 +116,14 @@
   opacity: 70%;
   cursor: pointer;
 }
-.forgot-password:hover {
-  text-decoration: underline;
-}
+
 .login-button {
   width: 300px;
   height: 59px;
   border: none;
   border-radius: 8px;
   font-family: "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: 17px !important;
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.6px;
@@ -138,13 +131,12 @@
   background-color: #473bf0 !important;
 }
 
-.btn-primary {
-  color: #ffffff;
-  background-color: #161c2d;
+.login-button:hover {
+  background-color: #2b20a4 !important;
 }
 
 .button1 {
-  margin-top: 51px;
+  margin-top: 56px;
 }
 
 .signup-link {
