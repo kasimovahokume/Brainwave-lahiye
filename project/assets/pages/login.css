@@ -255,6 +255,7 @@
   color: #fb6c49;
 }
 
-.footer_list li {
-  padding-left: 0 !important;
+ul.footer_list {
+  padding: 0;
+  margin: 0;
 }
