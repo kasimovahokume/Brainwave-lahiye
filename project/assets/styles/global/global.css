@@ -4,8 +4,7 @@
 }
 .header {
   display: flex;
-  /* background-color: #e8f7ec; */
-  background-color: bisque;
+  background-color: #e8f7ec;
   align-items: center;
 }
 .logo_title {
