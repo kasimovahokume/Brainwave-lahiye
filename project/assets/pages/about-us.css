@@ -111,3 +111,10 @@
   width: 1110px;
   height: 523px;
 }
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
