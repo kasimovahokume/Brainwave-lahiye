@@ -114,7 +114,61 @@
 
 .main2 {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 141px 314px 0px 245px;
+  gap: 121px;
+}
+
+.main2_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1.8px;
+  color: #161c2d;
+  width: 451px;
+  height: 174px;
+}
+.mainp2_text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #161c2d;
+  opacity: 0.7;
+  width: 469px;
+  height: 294px;
+}
+
+.main33 {
+  width: 100%;
+  height: 50px;
+  background-color: #f4f7fa;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 100px;
+  border: 1px solid #000000;
 }
+
+.images4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+  margin-left: 254px;
+}
+
+.image4_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.image4_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* MAIN3 */
