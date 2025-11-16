@@ -5,7 +5,8 @@
 }
 .header {
   display: flex;
-  background-color: #e8f7ec;
+  /* background-color: #e8f7ec; */
+  background-color: aqua;
   align-items: center;
 }
 .logo_title {
