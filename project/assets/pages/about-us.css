@@ -149,7 +149,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #000000;
 }
 
 .images4 {
@@ -172,3 +171,136 @@
 }
 
 /* MAIN3 */
+.main3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86.5px;
+  gap: 95px;
+  background-color: #f4f7fa;
+}
+
+.main3img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 139px 0 138px 254px;
+  width: 80%;
+  height: auto;
+}
+
+.mainp3_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main3_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: -1.8px;
+  color: #161c2d;
+  width: 382px;
+  height: 116px;
+  padding-top: 240px;
+}
+.main3_paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #161c2d;
+  opacity: 0.7;
+  margin-right: 281px;
+  padding-top: 130px;
+}
+
+.finisher {
+  width: 100%;
+  padding-top: 109px;
+}
+
+.main4 {
+  width: 100%;
+  height: 152px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main4_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -1.35px;
+  color: #161c2d;
+  padding-bottom: 16px;
+}
+.main4_paragraph {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #161c2d;
+  opacity: 0.7;
+  text-align: center;
+  padding-bottom: 58px;
+  width: 600px;
+  height: 93px;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
+.card_decorative_circle {
+  border: 1px solid #161c2d;
+  width: 267px;
+  height: 452px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.card_image {
+  width: 267px;
+  height: 356px;
+}
+.card_name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.15px;
+  color: #161c2d;
+}
+.card_role {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.12px;
+  color: #161c2d;
+  opacity: 0.7;
+}
