@@ -1,12 +1,11 @@
 .container {
-   max-width: 1600px;
-   width: 100%;
+  max-width: 1600px;
   margin: 0 auto;
 }
 .header {
   display: flex;
   /* background-color: #e8f7ec; */
-  background-color: aqua;
+  background-color: bisque;
   align-items: center;
 }
 .logo_title {
