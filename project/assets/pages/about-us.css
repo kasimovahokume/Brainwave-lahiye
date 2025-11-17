@@ -26,7 +26,17 @@
   font-size: 28px;
   letter-spacing: -0.16px;
   line-height: 100%;
+  animation: glowOnce 2s ease;
 }
+@keyframes glowOnce {
+  0% {
+    text-shadow: 0 0 0px #fb6c49, 0 0 10px #fb6c49, 0 0 15px #fb6c49;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
 .nav-list {
   display: flex;
   color: #161c2d;
@@ -92,6 +102,17 @@
   letter-spacing: -2px;
   color: #161c2d;
   padding-bottom: 44px;
+  animation: slideIn 1s ease forwards;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .about_us_text {
   font-family: "Roboto", sans-serif;
@@ -105,6 +126,15 @@
   padding-bottom: 58px;
   width: 600px;
   height: 93px;
+  animation: spacing 1.5s ease forwards;
+}
+@keyframes spacing {
+  from {
+    letter-spacing: 0.15px;
+  }
+  to {
+    letter-spacing: -0.2px;
+  }
 }
 
 .about_us_image {

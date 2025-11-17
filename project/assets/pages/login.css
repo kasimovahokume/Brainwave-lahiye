@@ -33,6 +33,17 @@
   letter-spacing: -2px;
   text-align: center;
   line-height: 65px;
+  animation: slideIn 1s ease-in-out;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .login-subtitle {
   font-family: "Roboto", sans-serif;
