@@ -7,7 +7,17 @@
   padding-top: 24px;
   padding-bottom: 26px;
   text-align: center;
+  animation: glowOnce 2s ease;
 }
+@keyframes glowOnce {
+  0% {
+    text-shadow: 0 0 0px #fb6c49, 0 0 10px #fb6c49, 0 0 15px #fb6c49;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
 /* MAIN */
 .main {
   display: flex;
