@@ -7,7 +7,17 @@
   padding-top: 24px;
   padding-bottom: 26px;
   text-align: center;
+  animation: glowOnce 2s ease;
 }
+@keyframes glowOnce {
+  0% {
+    text-shadow: 0 0 0px #fb6c49, 0 0 10px #fb6c49, 0 0 15px #fb6c49;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
 /* MAIN */
 .main {
   display: flex;
@@ -33,6 +43,17 @@
   letter-spacing: -2px;
   text-align: center;
   line-height: 65px;
+  animation: slideIn 1s ease-in-out;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .login-subtitle {
   font-family: "Roboto", sans-serif;
