@@ -167,8 +167,10 @@ h1, h2, h3, h4, h5, h6 {
   .footer_list a:hover {
     color: #FB6C49;
   }
+.footer {
   display: flex;
   background-color: var(--primary-color);
+  height: 496px;
 }
 
 .footer_left {
