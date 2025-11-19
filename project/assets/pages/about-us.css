@@ -142,6 +142,16 @@
 .about_us_image {
   width: 1110px;
   height: 523px;
+  animation: upDown 3s ease-in-out infinite;
+}
+@keyframes upDown {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
 }
 
 .main2 {
@@ -291,6 +301,11 @@
   flex-direction: column;
   position: relative;
   gap: 31px;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+.card_image:hover {
+  transform: scale(1.05);
 }
 
 .card_info {

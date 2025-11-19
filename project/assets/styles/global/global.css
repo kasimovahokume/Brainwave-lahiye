@@ -87,6 +87,67 @@ h6 {
 .btn_loginh:hover {
   color: var(--navbar_link-color);
 }
+.hero_text {
+  animation: slideIn 1s ease forwards;
+}
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.subscribe-btn {
+  background-color: #fb6c49;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.subscribe-btn:hover {
+  background-color: #e0553c;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: #5b53ff;
+  box-shadow: 0 0 5px #5b53ff;
+}
+
+.message_img {
+  animation: upDown 1s ease-in-out infinite;
+}
+@keyframes upDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.hero_img {
+  animation: slideInRight 3s ease forwards;
+}
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(15px);
+  }
+}
 
 /* FOOTER START */
 .footer {
