@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* HEADER START */
 .header {
   width: 100%;
   display: flex;
@@ -80,6 +80,9 @@
 .btn_login:hover {
   color: #fb6c49;
 }
+/* HEADER END */
+
+/* SUPPORT CONTAINER */
 .support_container {
   display: flex;
   flex-direction: column;
@@ -172,6 +175,7 @@
   padding-left: 15px;
   text-align: left !important;
 }
+/* SUPPORT CONTAINER END */
 
 /* FOOTER START */
 .footer {
@@ -260,3 +264,4 @@
 .footer_list a:hover {
   color: #fb6c49;
 }
+/* FOOTER END */

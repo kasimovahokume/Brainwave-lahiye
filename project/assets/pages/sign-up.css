@@ -1,3 +1,4 @@
+/* HEADER */
 .logo_title {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
@@ -12,13 +13,15 @@
 
 @keyframes glowOnce {
   0% {
-    text-shadow: 0 0 0px #FB6C49, 0 0 10px #FB6C49, 0 0 15px #FB6C49;
+    text-shadow: 0 0 0px #fb6c49, 0 0 10px #fb6c49, 0 0 15px #fb6c49;
   }
   100% {
     text-shadow: none;
   }
 }
-/* MAIN */
+/* HEADER END */
+
+/* MAIN START*/
 .main {
   display: flex;
   flex-direction: column;
@@ -188,6 +191,7 @@
   height: 69px;
   background-color: #ffffff;
 }
+/* MAIN END */
 
 /* FOOTER START */
 .footer {
@@ -281,3 +285,4 @@ ul.footer_list {
   padding: 0;
   margin: 0;
 }
+/* FOOTER END */

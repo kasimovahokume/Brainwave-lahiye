@@ -12,6 +12,7 @@ h6 {
   margin: 0 auto;
   padding: 0;
 }
+/* HEADER START */
 .headerhome {
   display: flex;
   background-color: #e8f7ec;
@@ -87,6 +88,9 @@ h6 {
 .btn_loginh:hover {
   color: var(--navbar_link-color);
 }
+/* HEADER END */
+
+/* HERO SECTION START */
 .hero_text {
   animation: slideIn 1s ease forwards;
 }
@@ -148,6 +152,7 @@ h6 {
     transform: translateX(15px);
   }
 }
+/* HERO SECTION END */
 
 /* FOOTER START */
 .footer {
@@ -234,3 +239,4 @@ h6 {
 .footer_list a:hover {
   color: #fb6c49;
 }
+/* FOOTER END */
