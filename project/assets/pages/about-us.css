@@ -257,7 +257,7 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
-  letter-spacing: -1.35px;
+  letter-spacing: -1.36px;
   color: #161c2d;
   padding-bottom: 16px;
 }
@@ -413,7 +413,7 @@
   color: #fb6c49;
 }
 
-@media screen and (min-width: 1298px) and (max-width: 1599px) {
+@media screen and (min-width: 1299px) and (max-width: 1599px) {
   .card1_container {
     padding: 68px 100px 60px 160px;
   }
