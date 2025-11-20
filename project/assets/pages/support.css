@@ -13,14 +13,15 @@
   align-items: center;
   padding: 21px 46px 0 46px;
 }
-.logo_title {
-  color: #161c2d;
+.logo_title a {
+  color: #161c2d !important;
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 28px;
   letter-spacing: -0.16px;
   line-height: 100%;
   animation: glowOnce 2s ease;
+  text-decoration: none !important;
 }
 @keyframes glowOnce {
   0% {

@@ -21,7 +21,8 @@ h6 {
   padding-top: 21px;
 }
 .logo_titleh {
-  margin-left: 251px;
+  margin-left: 240px;
+  margin-bottom: 7px;
   /* padding-top: 21px; */
   /* padding-left: 203px; */
   color: var(--primary-color);
@@ -46,7 +47,7 @@ h6 {
   margin-bottom: 8px;
 }
 .nav-listh {
-  margin-right: 75px;
+  margin-right: 72px;
   margin-bottom: 5px;
   display: flex;
   color: var(--primary-color);

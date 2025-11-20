@@ -10,7 +10,13 @@
   padding-bottom: 26px;
   text-align: center;
   animation: glowOnce 2s ease;
+  text-decoration: none;
 }
+.logo_title a {
+  color: #161c2d !important;
+  text-decoration: none !important;
+}
+
 @keyframes glowOnce {
   0% {
     text-shadow: 0 0 0px #fb6c49, 0 0 10px #fb6c49, 0 0 15px #fb6c49;
