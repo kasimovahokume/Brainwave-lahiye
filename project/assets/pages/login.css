@@ -296,4 +296,17 @@ ul.footer_list {
   padding: 0;
   margin: 0;
 }
+.footer_log a {
+  text-decoration: none;
+  color: #ffffff;
+}
 /* FOOTER END */
+@media screen and (min-width: 1299px) and (max-width: 1599px) {
+  .footer_left {
+    padding: 122px 50px 165px 200px;
+  }
+  .footer_connector {
+    margin: 0 100px 0 100px;
+    gap: 30px;
+  }
+}

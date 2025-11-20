@@ -37,7 +37,8 @@
   color: #161c2d;
   gap: 40px;
   list-style: none;
-  padding-right: 33px;
+  padding-right: 40px;
+  padding-bottom: 10px;
 }
 .nav-link {
   text-decoration: none;
@@ -135,7 +136,7 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 17px;
-  line-height: 32px;
+  line-height: 29px;
   letter-spacing: -0.2px;
   color: #161c2d;
   margin-bottom: 18px;
@@ -266,3 +267,12 @@
   color: #fb6c49;
 }
 /* FOOTER END */
+@media screen and (min-width: 1299px) and (max-width: 1599px) {
+  .footer_left {
+    padding: 122px 50px 165px 200px;
+  }
+  .footer_connector {
+    margin: 0 100px 0 100px;
+    gap: 30px;
+  }
+}
