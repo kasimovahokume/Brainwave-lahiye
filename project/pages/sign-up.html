@@ -12,6 +12,12 @@
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous" />
+    <style>
+      .ft_title {
+        /* ... */
+        opacity: 0.65;  /* Doğru */
+      }
+    </style>
 </head>
 <body>
     <!-- HEADER START -->
@@ -38,7 +44,9 @@
               type="email"
               class="form-control"
               id="email"
-              placeholder="i.e. john@mail.com" />
+              name="email"
+              placeholder="i.e. john@mail.com"
+              autocomplete="email" />
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
@@ -49,11 +57,11 @@
               placeholder="********" />
           </div>
           <div class="mb-3">
-            <label for="password" class="form-label">Confirm Password</label>
+            <label for="confirm-password" class="form-label">Confirm Password</label>
             <input
               type="password"
               class="form-control"
-              id="password"
+              id="confirm-password"
               placeholder="********" />
           </div>
           <div class="button1">

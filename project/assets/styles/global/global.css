@@ -27,10 +27,7 @@ body {
 .logo_titleh {
   margin-left: 240px;
   margin-bottom: 7px;
-  /* padding-top: 21px; */
-  /* padding-left: 203px; */
   color: var(--primary-color);
-  /* padding-right: 50px; */
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   font-size: 28px;
@@ -52,14 +49,12 @@ body {
   }
 }
 .nav-itemsh {
-  /* padding-top: 5px; */
   margin-bottom: 8px;
 }
-.nav-listh {
-  margin-right: 72px;
-  margin-bottom: 5px;
+.nav-listh1 {
+  padding-left: 0 !important;
+  padding-top: 6px !important;
   display: flex;
-  color: var(--primary-color);
   gap: 40px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -80,11 +75,13 @@ body {
   display: flex;
 }
 .btn_containerh {
-  /* padding-bottom: 20px; */
   margin-right: 240px;
-  margin-bottom: 15.3px;
+  margin-bottom: 0;
   display: flex;
-  gap: 44px;
+  gap: 24px;
+  align-items: center;
+  height: auto;
+  padding-bottom: 8px;
 }
 .btn_loginh {
   font-family: "Roboto", sans-serif;
@@ -94,9 +91,12 @@ body {
   letter-spacing: -0.1px;
   text-align: center;
   transition: 0.3s;
-}
-.btn_loginh:hover {
-  color: var(--navbar_link-color);
+  background: none;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
 }
 /* HEADER END */
 

@@ -45,8 +45,8 @@
   color: #161c2d;
   gap: 40px;
   list-style: none;
-  margin-right: 40px !important;
-  padding: 0;
+  margin-right: 48px !important;
+  padding-top: 10px;
 }
 .nav-link {
   text-decoration: none;
