@@ -55,7 +55,7 @@ body {
 }
 .nav-listh1 {
   padding-left: 0 !important;
-  padding-top: 6px !important;
+  padding-top: 8px !important;
   display: flex;
   gap: 40px;
   font-size: 15px;

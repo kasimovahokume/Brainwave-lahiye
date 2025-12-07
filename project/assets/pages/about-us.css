@@ -91,6 +91,18 @@
 .btn_login:hover {
   color: #fb6c49;
 }
+.btn_loginh,
+.btn-linkh {
+  text-decoration: none;
+  border: none;
+  border-bottom: none;
+  box-shadow: none;
+}
+a.btn_loginh,
+a.btn-linkh,
+a.btn-linkh.btn_loginh {
+  text-decoration: none !important;
+}
 /* HEADER END */
 
 /* ABOUT US Container */
@@ -433,6 +445,10 @@
   color: #fb6c49;
 }
 /* FOOTER END */
+
+a {
+  text-decoration: none !important;
+}
 
 @media screen and (min-width: 1299px) and (max-width: 1599px) {
   .card1_container {
